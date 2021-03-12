@@ -21,9 +21,9 @@ public class MainTest {
     @Test
     public void testCountOfGreater() {
         System.out.println("countOfGreater");
-        int[] Array1 = null;
-        int checkingNumber = 0;
-        int expResult = 4;
+        int[] Array1 = {3,5,8};
+        int checkingNumber = 4;
+        int expResult = 2;
         int result = Main.countOfGreater(Array1, checkingNumber);
         assertEquals(expResult, result);
         
